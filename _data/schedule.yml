@@ -1,0 +1,77 @@
+- 
+  date: "2015-02-07"
+  dateReadable: "February 07"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [001]
+    }
+- 
+  date: "2015-02-14"
+  dateReadable: "February 14"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [002]
+    }
+-
+  date: "2015-02-21"
+  dateReadable: "February 21"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [003]
+    }
+- 
+  date: "2015-02-28"
+  dateReadable: "February 28"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [004]
+    }
+- 
+  date: "2015-03-07"
+  dateReadable: "March 07"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [005]
+    }
+- 
+  date: "2015-03-14"
+  dateReadable: "March 14"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [006]
+    }
+- 
+  date: "2015-03-21"
+  dateReadable: "March 21"
+  tracks: 
+    - {title: "Android fundamentals", color: "#90be4e"}    
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "12:00",
+    	sessionIds: [007]
+    }

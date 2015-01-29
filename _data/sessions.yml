@@ -1,0 +1,63 @@
+-
+  id: 001
+  title: "Week 1 - Lesson 1 - Create Android Project"
+  description: "Android Fundamentals blends theory and practice to help you build great apps the right way. In this course, you'll work with instructors, step-by-step, to build an Android app, and learn best practices of mobile development in general and Android development in particular."
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/LfVBFFoy9Y0"
+-
+  id: 002
+  title: "Week 2 - Lesson 2 - Connect to the Cloud"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/Tn1bH76cgLM"
+-
+  id: 003
+  title: "Week 3 - Lesson 3 - New Activities and Intents"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/JV0CBM6mphA"
+-
+  id: 004
+  title: "Week 4 - Lesson 4 - Lifecycle and Databases, Content Providers and Loaders"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/xWzr7qTBTEk"
+-
+  id: 005
+  title: "Week 5 - Lesson 5 - Rich and Responsive Layouts"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/UWDPWQytjH0"
+-
+  id: 006
+  title: "Week 6 - Lesson 6 - Services and Notifications"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/Yu1NoQ1vmMQ"
+-
+  id: 007
+  title: "Week 7 - Final Project"
+  description: ""
+  subtype: workshop
+  speakers: [1]
+  language: ro
+  complexity: "Intermediate"
+  video: "//www.youtube.com/embed/FP9GVZt4aqc"

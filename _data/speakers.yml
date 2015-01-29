@@ -1,0 +1,13 @@
+- 
+  id: 1
+  name: "Petrică Clement"
+  surname: "Chiriac"
+  company: "GDG Bucharest"
+  title: "Facilitator and organizer"
+  bio: "Petrică is true technology enthusiast, who loves to write code. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives."
+  thumbnailUrl: PetricaClementChiriac.png
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+PetricaClementChiriac"}
+    - {name: "twitter", link: "https://twitter.com/Tica2"}
+    - {name: "github", link: "https://github.com/Tica2"}
