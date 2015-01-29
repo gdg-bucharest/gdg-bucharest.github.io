@@ -78,7 +78,7 @@ latestNewsTitle: "Latest news"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 1
-rockstarSpeakersTitle: "instructor"
+rockstarSpeakersTitle: "Facilitator and organizer"
 rockstarSpeakersButtonText: "See all ..."
 
 # Location Block
@@ -157,6 +157,8 @@ footerBlocks:
   title: "FAQ"
   links:
    - {permalink: "/cod/", text: "Commitment note"}
+   - {permalink: "http://developerstudyjams.com/", text: "http://developerstudyjams.com/"}
+   - {permalink: "https://docs.google.com/document/d/1xv15iturSuDuqeI912qelqtq2IAs1rousi0bndIu4Wk", text: "Google Study Jam Udacity User Flow"}   
 
 # Blog
 blogTitle: "Latest news"
@@ -197,37 +199,3 @@ directionDetailsWideCards:
 # Hackathon
 hackathonTitle: "Hackathon"
 enableHackathon: false
-
-# Hackathon About Block
-aboutHackathonTitle: "Meet our themes"
-hackathonRows:
- - {row}
-
-# Hackathon Judges Block
-judgesImage: "judges.jpg"
-judgesTitle: "Judges"
-
-# Hackathon Prizes Block
-prizesTitle: "Prizes"
-prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
-
-# Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Communa"
-hackathonLocationLink: "http://communa.net.ua/"
-hackathonStreetAddress: "1 Halytska St"
-hackathonAddressLocality: "Lviv"
-hackathonAddressLocalityRegion: "Lvivska"
-hackathonPostalCode: "79000"
-hackathonAddressCountry: "Ukraine"
-hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
-hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
-viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "49.840999, 24.031144"
-hackathonMapCenterCoordinates: "49.840696, 24.028754"
-hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
