@@ -1,0 +1,233 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: true
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+# Site Settings
+title: "Study Jam Android Fundamentals GDG Bucharest"
+email: "bucharest@gtug.ro"
+description: "Google Developers Study Jams Android Fundamentals Udacity Course"
+baseurl: "/jam"
+url: "http://gdg-bucharest.github.io/"
+permalink: "/blog/:title"
+
+# Google Analytics
+googleAnalyticsTrackingId: "UA-0000000-0"
+googleAnalyticsSiteUrl: "gdg-bucharest.github.io"
+siteVerification: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Organizer Info
+organizerName: "GDG Bucharest"
+organizerAlternateName: "Google Developer Group Bucharest"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "bucharest@gtug.ro"
+organizerLogo: "/img/seo/gdg-bucharest.png"
+organizerLink: "http://gdg-bucharest.github.io/"
+
+# Head
+metaKeywords: "event, gdg, google, programming, android, developers, bucharest, jam"
+twitterAccount: "@GDGBucharest"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "http://goo.gl/forms/VC6GvlWris"
+c4sponsorsUrl: "mailto:bucharest@gtug.ro"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/trainers/", text: "Trainers"}
+bottomNavigationLinks:
+ - {link: "http://goo.gl/forms/VC6GvlWris", text: "Register"}
+rightNavigationButtons:
+ - {link: "http://goo.gl/forms/VC6GvlWris", text: "Register"}
+
+# Hero Block
+heroImage: "masthead.png"
+heroTitle: "GDG Bucharest Android Study Jam 2015"
+eventDate: "February - March, 2015"
+typeoutTextValues: '"", "Season", "Romanaia"'
+typeoutFallback: "Season"
+heroButtons:
+ - {link: "http://goo.gl/forms/VC6GvlWris", text: "Register"}
+
+# About Block
+aboutTitle: "About Google Developers Study Jams"
+aboutBlock:
+ - {title: "Weekly study group sessions", image: "workshop.jpg", text: "Google Developers Study Jams is a free series of global, community-run, in-person study groups. The first Study Jams series is presented in partnership with Udacity and will follow their Android Fundamentals curriculum. Google Developer Group facilitators certified in the course will lead the Study Jams that meet once weekly for 8 - 9 weeks!" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "20", specialCharacter: "+", info: "attendees", detail: "from Bucharest or Romania"}
+ - {count: "14", specialCharacter: "+", info: "hours", detail: "of pure Android technologies"}
+ - {count: "1",  specialCharacter: "+", info: "instructor", detail: "facilitator and guests"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 1
+rockstarSpeakersTitle: "instructor"
+rockstarSpeakersButtonText: "See all ..."
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "Open Connect"
+eventLocationLink: "http://openconnect.ro/contact/"
+eventStreetAddress: "Bulevardul Dacia 99, etaj 3"
+eventAddressLocality: "Bucuresti"
+eventAddressLocalityRegion: "Sector 2"
+eventPostalCode: "000"
+eventAddressCountry: "Romania"
+eventStartTime: "2015-02-07T10:00"
+eventDoorTime: "09:45"
+eventEndTime: "2015-02-07T12:00"
+eventPlaceCoordinates: "44.44615, 26.108103"
+mapCenterCoordinates: "44.44615, 26.108103"
+mapMobileCenterCoordinates: "44.44615, 26.108103"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "sala-mare-carousel-1.jpg"
+venueSmallImage1: "sala-workshop-carousel.jpg"
+venueTitle: "Open Connect"
+venueFeatures: ["Networking and events", "co-working (open space and fixed desk)", "Located directly in the city center"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "devstudyjam"
+twitterFeed: "https://twitter.com/GDGBucharest"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "Course is a free but is limited to 20 seats"
+ticketsInfo: ""
+ticketsOffers:
+ -
+  name: "FREE"
+  price: "FREE"
+  priceCurrency: "-"
+  ticketsNumber: "1"
+  ribbon: "-100%"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/112968068864186499076", icon: "google-plus"}
+ - {link: "http://twitter.com/GDGBucharest", icon: "twitter"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://developerstudyjams.com/", text: "Global Google Developers Study Jams"}
+   - {link: "http://gdg-bucharest.github.io/", text: "GDG Bucharest Study Jam"}
+   - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:bucharest@gtug.ro", text: "bucharest@gtug.ro"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Commitment note"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devstudyjam"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "Study Jams are an opportunity for students to receive free, in-person guidance and tutoring on the Udacity course in a fun classroom environment. Study Jam sessions are designed around the Udacity course structure, with a weekly session following each lesson (6 lessons), plus two additional weeks for completing and sharing course final projects. Students are expected to come to the Study Jam sessions having completed that week.s Udacity lesson online, so that the Study Jam time may be used to review key concepts, address questions, and work on individual projects. The live community atmosphere and tutoring is designed to help students achieve deeper learning around the concepts taught in the course."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: ""
+logisticsMapMobileCenterCoordinates: "44.44615, 26.108103"
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Open Connect"
+directionDetailsCards:
+ - {title: "From the Subway", information: ''}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: false
+
+# Hackathon About Block
+aboutHackathonTitle: "Meet our themes"
+hackathonRows:
+ - {row}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Judges"
+
+# Hackathon Prizes Block
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Communa"
+hackathonLocationLink: "http://communa.net.ua/"
+hackathonStreetAddress: "1 Halytska St"
+hackathonAddressLocality: "Lviv"
+hackathonAddressLocalityRegion: "Lvivska"
+hackathonPostalCode: "79000"
+hackathonAddressCountry: "Ukraine"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 24.031144"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
