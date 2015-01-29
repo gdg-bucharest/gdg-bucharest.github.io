@@ -12,14 +12,14 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Study Jam Android Fundamentals GDG Bucharest"
 email: "bucharest@gtug.ro"
 description: "Google Developers Study Jams Android Fundamentals Udacity Course"
-baseurl: "/jam"
+baseurl: ""
 url: "http://gdg-bucharest.github.io/"
 permalink: "/blog/:title"
 
 # Google Analytics
 googleAnalyticsTrackingId: "UA-0000000-0"
 googleAnalyticsSiteUrl: "gdg-bucharest.github.io"
-siteVerification: "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+siteVerification: "xxxxxxxxs"
 
 # Organizer Info
 organizerName: "GDG Bucharest"
