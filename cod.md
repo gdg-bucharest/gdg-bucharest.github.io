@@ -11,6 +11,6 @@ Time commitment: Study Jam sessions occur on a weekly basis over 8 to 9 weeks, w
 
 ######Contacts:
 
-- Petrica Clement Chiriac, +40 722 134 009, [bucharest@gtug.ro](mailto:bucharest@gtug.ro)
+- Petrica Clement Chiriac, [bucharest@gtug.ro](mailto:bucharest@gtug.ro)
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">

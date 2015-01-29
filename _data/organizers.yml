@@ -1,5 +1,5 @@
 - 
   group: "Main organizer"
   elements: 
-    - {name: "GDG Bucharest", description: "GDG Bucharest - Open and volunteer geek community", link: "http://gdg-bucharest.github.io/", imageUrl: "gdg-bucharest.png"}
+    - {name: "GDG Bucharest", description: "GDG Bucharest - Open and volunteer geek community", link: "http://gdg-bucharest.github.io/", imageUrl: "gdg-bucharest.png", width: "270px"}
 
