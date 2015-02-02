@@ -11,3 +11,16 @@
     - {name: "google-plus", link: "https://plus.google.com/+PetricaClementChiriac"}
     - {name: "twitter", link: "https://twitter.com/Tica2"}
     - {name: "github", link: "https://github.com/Tica2"}
+-
+  id: 2
+  name: "Ioan Eugen"
+  surname: "Stan"
+  company: "Stan Ioan Eugen PFA"
+  title: "Consultant IT"
+  bio: "Freelance Java (web) developer based in Bucharest, Romania. Volunteer with a few open source organizations and lead BJUG - the local Java User Group."
+  thumbnailUrl: ioan-eugen-stan.png
+  rockstar: true
+  social:
+    - {name: "site", link: "http://ieugen.ro/"}
+    - {name: "twitter", link: "https://twitter.com/ieugen222"}
+    - {name: "github", link: "https://github.com/ieugen"}

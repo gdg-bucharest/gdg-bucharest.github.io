@@ -6,5 +6,5 @@
   group: "With support of"
   elements: 
     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
-    - {name: "Open Connect", description: "Open Connect", link: "http://openconnect.ro/", imageUrl: "open-connect.png", width: "120px"}
+    - {name: "Open Connect", description: "Open Connect", link: "http://openconnect.ro/", imageUrl: "ConnectHubLogo.png", width: "120px"}
     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
