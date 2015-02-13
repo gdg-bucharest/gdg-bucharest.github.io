@@ -1,0 +1,189 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+  <!-- #1 - Android logo --> 
+  <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/android.png"></span>
+    </article>
+  </slide>
+
+  <!-- #2 - Intro -->
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <!-- #3 - About me -->
+  <slide class="nobackground">
+    <hgroup>
+      <h2>About me</h2>
+    </hgroup>
+    <article>
+      <img src="images/me.png">
+      <ul>
+        <li>Petrica Clement Chiriac</li>
+	<li>@Tica2</li>
+    <li>10+ Java</li>
+	<li>5+ GWT</li>
+	<li>Manager GDG Bucharest</li>
+	<li>CEO Fluxinternet SRL</li>
+	<li>Still looking for right/cool Start-up!</li>	
+      </ul>
+    </article>
+  </slide>
+
+  <!-- #4 - Agenda -->
+  <slide>
+    <hgroup>
+      <h2>Agenda</h2>
+    </hgroup>
+    <article>
+      <img src="images/agenda.png">
+      <ul>
+        <li>Review first week - "Hello World!" Android app</li>
+        <li>Gradle - build automation system</li>
+	    <li>Git/Github project</li>
+	    <li>My project name</li>
+	    <li>Working...</li>
+	    <li></li>
+	    <li>Questions</li>
+      </ul>
+    </article>
+  </slide>  
+  
+  <!-- #5 - First Android App -->
+  <slide>
+	  <hgroup><h2>First Android App - Create new project</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-new-project.png" height="400px" class="reflect" alt="New project" title="New project">
+	      <footer class="source">Create new project</footer>
+	  </article>
+  </slide>
+  <slide>
+	  <hgroup><h2>First Android App - Select API 10</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-sdk-api-10.png" height="400px" class="reflect" alt="Select API 10" title="Select API 10">
+	      <footer class="source">Choose API 10</footer>
+	  </article>
+  </slide>
+  <slide>
+	  <hgroup><h2>First Android App - Blank Activity with Fragment</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-activity.png" height="400px" class="reflect" alt="Blank Activity with Fragment" title="Blank Activity with Fragment">
+	      <footer class="source">Choose Blank Activity with Fragment</footer>
+	  </article>
+  </slide>
+  <slide>
+	  <hgroup><h2>First Android App - Default options</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-options.png" height="400px" class="reflect" alt="Default options" title="Default options">
+	      <footer class="source">Choose default options</footer>
+	  </article>
+  </slide>
+  
+  <!-- #6 - Gradle -->
+  <slide>
+	  <hgroup><h2>Gradle - build files</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-files.png" height="400px" class="reflect" alt="Gradle build files" title="Gradle build files">
+	      <footer class="source">Gradle build files</footer>
+	  </article>
+  </slide>  
+  <slide>
+	  <hgroup><h2>Gradle - gradlew.bat (gradle wrapper)</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-run-gradlew-bat.png" height="400px" class="reflect" alt="gradlew.bat" title="gradlew.bat">
+	      <footer class="source">Run gradlew.bat to check gradle build system<br />Run gradlew.bat tasks</footer>
+	  </article>
+  </slide>
+  <slide>
+	  <hgroup><h2>Gradle - assemble</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-assemble.png" height="400px" class="reflect" alt="assemble" title="assemble">
+	      <footer class="source">Run gradlew.bat assemble <br />find apk file in app\build\outputs\apk</footer>
+	  </article>
+  </slide>
+  <slide>
+	  <hgroup><h2>Gradle - install apk (gradlew installDebug)</h2></hgroup>
+	  <article>
+	      <img src="w2/01-gradle-install-apk.png" height="400px" class="reflect" alt="install apk" title="install apk">
+	      <footer class="source">Run gradlew installDebug</footer>
+	  </article>
+  </slide>
+  
+   
+  
+  <!-- #5 - Agenda -->
+  
+  <!-- #(end-2) - Questions -->
+  <slide> 
+    <hgroup>
+      <h2>Questions?</h2>
+    </hgroup>  
+    <article>      
+      <img src="images/questions.png" class="flexbox vcenter" alt="Questions?" title="Questions?">      
+    </article>    
+  </slide>    
+
+  <!-- #(end-1) - Thank You -->
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><img src="images/google_developers_icon_128.png"></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Week 2 - Thank You!&gt;</h2>
+      <p>GDG Bucharest, Open Connect, Udacity, Google.</p>
+      <p>Android Fundamentals</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+  <!-- #end - GDG Bucharest Logo --> 
+  <slide class="nobackground">
+    <hgroup>
+      <h2>See you next week</h2>      
+    </hgroup> 
+    <article class="flexbox vcenter">
+      <span><img src="images/gdg-bucharest-logo.png" height="120px"></span>
+    </article>
+  </slide>
+  <!-- #end -->   
+  <slide class="backdrop"></slide>
+</slides>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
